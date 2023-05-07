@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Lable"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item android:id="@+id/Bymedicine"
+            android:icon="@drawable/ic_baseline_language_24"
+            android:title="By Medicine"/>
+        <item android:id="@+id/Finddoctor"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Find Doctor"/>
+        <item android:id="@+id/Health"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+            android:title="Lable"/>
+        <item android:id="@+id/orderdetails"
+            android:icon="@drawable/ic_baseline_widgets_24"
+            android:title="Order Details"/>
+    </group>
+    <item android:title="other option">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/Timer"
+                    android:icon="@drawable/ic_baseline_access_time_24"
+                    android:title="Timer"/>
+                <item android:id="@+id/Chat"
+                    android:icon="@drawable/ic_baseline_bubble_chart_24"
+                    android:title="Chat With Us"/>
+                <item android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Logout"/>
+            </group>
+        </menu>
+    </item>
+</menu>
